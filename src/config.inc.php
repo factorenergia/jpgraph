@@ -22,7 +22,7 @@ if (file_exists(dirname(__DIR__) . '/vendor/autoload.php')) {
 }
 require_once ROOT_PATH . '/vendor/autoload.php';
 
-use Amenadiel\JpGraph\Util\ErrMsgText;
+use factorenergia\JpGraph\Util\ErrMsgText;
 
 if (is_readable(ROOT_PATH . '/.env') && class_exists('\Symfony\Component\Dotenv\Dotenv')) {
     $dotenv = new \Symfony\Component\Dotenv\Dotenv();
@@ -551,7 +551,7 @@ if (!defined('MBTTF_DIR')) {
 // Make sure PHP version is high enough
 //
 if (version_compare(PHP_VERSION, MIN_PHPVERSION) < 0) {
-    Amenadiel\JpGraph\Util\JpGraphError::RaiseL(13, PHP_VERSION, MIN_PHPVERSION);
+    factorenergia\JpGraph\Util\JpGraphError::RaiseL(13, PHP_VERSION, MIN_PHPVERSION);
     die();
 }
 
@@ -559,12 +559,12 @@ if (version_compare(PHP_VERSION, MIN_PHPVERSION) < 0) {
 // Make GD sanity check
 //
 if (!function_exists('imagetypes') || !function_exists('imagecreatefromstring')) {
-    Amenadiel\JpGraph\Util\JpGraphError::RaiseL(25001);
+    factorenergia\JpGraph\Util\JpGraphError::RaiseL(25001);
     //("This PHP installation is not configured with the GD library. Please recompile PHP with GD support to run JpGraph. (Neither function imagetypes() nor imagecreatefromstring() does exist)");
 }
 
 if (INSTALL_PHP_ERR_HANDLER) {
-    set_error_handler('\Amenadiel\JpGraph\Util\Helper::phpErrorHandler');
+    set_error_handler('\factorenergia\JpGraph\Util\Helper::phpErrorHandler');
 }
 
 //
@@ -573,7 +573,7 @@ if (INSTALL_PHP_ERR_HANDLER) {
 // debugging difficult. This is controlled by the user setting CATCH_PHPERRMSG
 //
 if (isset($GLOBALS['php_errormsg']) && CATCH_PHPERRMSG && !preg_match('/|Deprecated|/i', $GLOBALS['php_errormsg'])) {
-    Amenadiel\JpGraph\Util\JpGraphError::RaiseL(25004, $GLOBALS['php_errormsg']);
+    factorenergia\JpGraph\Util\JpGraphError::RaiseL(25004, $GLOBALS['php_errormsg']);
 }
 
 // Constants for types of static bands in plot area

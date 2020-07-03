@@ -6,8 +6,8 @@
 
 require_once __DIR__ . '/../../src/config.inc.php';
 
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Plot;
 
 // Some data
 $datay  = [28, 19, 18, 23, 12, 11];

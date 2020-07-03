@@ -6,7 +6,7 @@ defined('TEST_INMEDIATE') || define('TEST_INMEDIATE', true);
  */
 class CanvasTest extends \Codeception\Test\Unit
 {
-    use Amenadiel\JpGraph\UnitTest\UnitTestTrait;
+    use factorenergia\JpGraph\UnitTest\UnitTestTrait;
 
     public static $fixTures    = [];
     public static $files       = null;

@@ -4,12 +4,12 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Plot;
+namespace factorenergia\JpGraph\Plot;
 
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Image;
-use Amenadiel\JpGraph\Text;
-use Amenadiel\JpGraph\Util;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Image;
+use factorenergia\JpGraph\Text;
+use factorenergia\JpGraph\Util;
 
 define('WINDROSE_TYPE4', 1);
 define('WINDROSE_TYPE8', 2);

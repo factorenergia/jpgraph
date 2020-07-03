@@ -6,7 +6,7 @@ use \Codeception\Util\Debug;
  */
 class ImgTest extends \Codeception\Test\Unit
 {
-    use Amenadiel\JpGraph\UnitTest\UnitTestTrait;
+    use factorenergia\JpGraph\UnitTest\UnitTestTrait;
 
     public static $fixTures = [
         'testfileIterator'                => [

@@ -1,5 +1,5 @@
 <?php
-namespace Amenadiel\JpGraph\UnitTest;
+namespace factorenergia\JpGraph\UnitTest;
 
 /**
  * @group ready

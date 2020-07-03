@@ -7,8 +7,8 @@
 // Gantt example 30
 // $Id: ganttex30.php,v 1.4 2003/05/30 20:12:43 aditus Exp $
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Plot;
 
 // Standard calls to create a new Graph\Graph
 $graph = new Graph\GanttGraph();

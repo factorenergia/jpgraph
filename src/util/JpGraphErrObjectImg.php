@@ -4,10 +4,10 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Util;
+namespace factorenergia\JpGraph\Util;
 
-use Amenadiel\JpGraph\Image;
-use Amenadiel\JpGraph\Text;
+use factorenergia\JpGraph\Image;
+use factorenergia\JpGraph\Text;
 
 /**
  * An image based error handler.

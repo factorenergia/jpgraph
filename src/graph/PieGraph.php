@@ -4,13 +4,13 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace factorenergia\JpGraph\Graph;
 
 require_once __DIR__ . '/../config.inc.php';
 
-use Amenadiel\JpGraph\Image;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Text;
+use factorenergia\JpGraph\Image;
+use factorenergia\JpGraph\Plot;
+use factorenergia\JpGraph\Text;
 
 /**
  * @class PieGraph

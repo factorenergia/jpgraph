@@ -4,9 +4,9 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace factorenergia\JpGraph\Graph;
 
-use Amenadiel\JpGraph\Image;
+use factorenergia\JpGraph\Image;
 
 /**
  * File:        JPGRAPH_CANVAS.PHP

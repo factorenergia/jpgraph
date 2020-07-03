@@ -1,5 +1,5 @@
 {
-  "name": "amenadiel/jpgraph",
+  "name": "factorenergia/jpgraph",
   "type": "library",
   "description": "jpGraph, library to make graphs and charts",
   "version": "4.0.3",
@@ -31,17 +31,17 @@
   },
   "autoload": {
     "psr-4": {
-      "Amenadiel\\JpGraph\\UnitTest\\": "tests",
-      "Amenadiel\\JpGraph\\": "src/",
-      "Amenadiel\\JpGraph\\Graph\\": "src/graph",
-      "Amenadiel\\JpGraph\\Graph\\Scale\\": "src/graph/scale",
-      "Amenadiel\\JpGraph\\Graph\\Tick\\": "src/graph/tick",
-      "Amenadiel\\JpGraph\\Graph\\Axis\\": "src/graph/axis",
-      "Amenadiel\\JpGraph\\Image\\": "src/image",
-      "Amenadiel\\JpGraph\\Plot\\": "src/plot",
-      "Amenadiel\\JpGraph\\Text\\": "src/text",
-      "Amenadiel\\JpGraph\\Themes\\": "src/themes",
-      "Amenadiel\\JpGraph\\Util\\": "src/util"
+      "factorenergia\\JpGraph\\UnitTest\\": "tests",
+      "factorenergia\\JpGraph\\": "src/",
+      "factorenergia\\JpGraph\\Graph\\": "src/graph",
+      "factorenergia\\JpGraph\\Graph\\Scale\\": "src/graph/scale",
+      "factorenergia\\JpGraph\\Graph\\Tick\\": "src/graph/tick",
+      "factorenergia\\JpGraph\\Graph\\Axis\\": "src/graph/axis",
+      "factorenergia\\JpGraph\\Image\\": "src/image",
+      "factorenergia\\JpGraph\\Plot\\": "src/plot",
+      "factorenergia\\JpGraph\\Text\\": "src/text",
+      "factorenergia\\JpGraph\\Themes\\": "src/themes",
+      "factorenergia\\JpGraph\\Util\\": "src/util"
     }
   },
   "scripts": {

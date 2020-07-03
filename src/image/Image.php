@@ -4,12 +4,12 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Image;
+namespace factorenergia\JpGraph\Image;
 
-use Amenadiel\JpGraph\Text\LanguageConv;
-use Amenadiel\JpGraph\Text\TTF;
-use Amenadiel\JpGraph\Util;
-use Amenadiel\JpGraph\Util\ErrMsgText;
+use factorenergia\JpGraph\Text\LanguageConv;
+use factorenergia\JpGraph\Text\TTF;
+use factorenergia\JpGraph\Util;
+use factorenergia\JpGraph\Util\ErrMsgText;
 
 /**
  * File:        GD_IMAGE.INC.PHP

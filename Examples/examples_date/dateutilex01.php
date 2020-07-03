@@ -5,9 +5,9 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Util;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Plot;
+use factorenergia\JpGraph\Util;
 
 // Get a dataset stored in $xdata and $ydata
 include __DIR__ . '/../assets/dataset01.inc.php';

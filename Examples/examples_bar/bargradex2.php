@@ -7,8 +7,8 @@
 // Example for use of JpGraph,
 // ljp, 01/03/01 20:32
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Plot;
 
 // We need some data
 $datay = [-0.13, 0.25, -0.21, 0.35, 0.31, 0.04];

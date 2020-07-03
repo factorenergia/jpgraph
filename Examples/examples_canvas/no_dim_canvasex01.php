@@ -6,8 +6,8 @@
 
 require_once __DIR__ . '/../../src/config.inc.php';
 
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Text;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Text;
 
 // Setup a basic canvas we can work
 $__width  = 400;

@@ -4,9 +4,9 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Util;
+namespace factorenergia\JpGraph\Util;
 
-use Amenadiel\JpGraph\Image;
+use factorenergia\JpGraph\Image;
 
 // Keep a global flag cache to reduce memory usage
 

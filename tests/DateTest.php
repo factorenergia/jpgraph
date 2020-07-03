@@ -5,7 +5,7 @@
  */
 class DateTest extends \Codeception\Test\Unit
 {
-    use Amenadiel\JpGraph\UnitTest\UnitTestTrait;
+    use factorenergia\JpGraph\UnitTest\UnitTestTrait;
 
     public static $fixTures = [
 

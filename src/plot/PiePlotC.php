@@ -4,9 +4,9 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Plot;
+namespace factorenergia\JpGraph\Plot;
 
-use Amenadiel\JpGraph\Text;
+use factorenergia\JpGraph\Text;
 
 /**
  * @class PiePlotC

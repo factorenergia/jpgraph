@@ -6,8 +6,8 @@
 
 // Gantt example with sunday week start and only shows a partial graph
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Plot;
 
 // Setup Gantt graph
 $__width  = 0;

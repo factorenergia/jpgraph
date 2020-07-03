@@ -6,7 +6,7 @@ use \Codeception\Util\Debug;
  */
 class BackgroundTest extends \Codeception\Test\Unit
 {
-    use Amenadiel\JpGraph\UnitTest\UnitTestTrait;
+    use factorenergia\JpGraph\UnitTest\UnitTestTrait;
 
     public static $fixTures = [
         'testUsingBackgroundImage' => [

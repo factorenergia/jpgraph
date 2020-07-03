@@ -5,9 +5,9 @@
  */
 
 require_once __DIR__ . '/../../src/config.inc.php';
-use Amenadiel\JpGraph\Graph;
-use Amenadiel\JpGraph\Plot;
-use Amenadiel\JpGraph\Text;
+use factorenergia\JpGraph\Graph;
+use factorenergia\JpGraph\Plot;
+use factorenergia\JpGraph\Text;
 
 $datay = [12, 8, 19, 3, 10, 5];
 

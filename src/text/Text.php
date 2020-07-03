@@ -4,10 +4,10 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Text;
+namespace factorenergia\JpGraph\Text;
 
-//use Amenadiel\JpGraph\Graph\Graph;
-use Amenadiel\JpGraph\Util;
+//use factorenergia\JpGraph\Graph\Graph;
+use factorenergia\JpGraph\Util;
 
 /**
  * File:        JPGRAPH_TEXT.INC.PHP

@@ -2,10 +2,10 @@
 
 You're seeing the README for version ^4, which requires PHP v7.0 or newer. If you need to run under PHP 5.6, please check [release v3.6](https://github.com/HuasoFoundries/jpgraph/tree/v3.6.21)
 
-[![Packagist](https://img.shields.io/packagist/dm/amenadiel/jpgraph.svg)](https://packagist.org/packages/amenadiel/jpgraph) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHuasoFoundries%2Fjpgraph.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHuasoFoundries%2Fjpgraph?ref=badge_shield)
+[![Packagist](https://img.shields.io/packagist/dm/factorenergia/jpgraph.svg)](https://packagist.org/packages/factorenergia/jpgraph) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHuasoFoundries%2Fjpgraph.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHuasoFoundries%2Fjpgraph?ref=badge_shield)
 
 [![Code Climate](https://codeclimate.com/github/HuasoFoundries/jpgraph/badges/gpa.svg)](https://codeclimate.com/github/HuasoFoundries/jpgraph)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a7ea0cac1d84bc79545c9f6ff85cd25)](https://www.codacy.com/app/amenadiel/jpgraph?utm_source=github.com&utm_medium=referral&utm_content=HuasoFoundries/jpgraph&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a7ea0cac1d84bc79545c9f6ff85cd25)](https://www.codacy.com/app/factorenergia/jpgraph?utm_source=github.com&utm_medium=referral&utm_content=HuasoFoundries/jpgraph&utm_campaign=Badge_Grade)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/HuasoFoundries/jpgraph/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/HuasoFoundries/jpgraph/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/HuasoFoundries/jpgraph/badges/build.png?b=master)](https://scrutinizer-ci.com/g/HuasoFoundries/jpgraph/build-status/master)
 [![StyleCI](https://styleci.io/repos/39590412/shield?branch=master)](https://styleci.io/repos/39590412)
@@ -31,12 +31,12 @@ For a long time, [JpGraph](http://jpgraph.net/) got stalled at version 3.5.x (se
 Using composer
 
 ```sh
-composer require amenadiel/jpgraph:^4
+composer require factorenergia/jpgraph:^4
 ```
 
 ## How to use
 
-See the [examples folder](https://github.com/amenadiel/jpgraph/tree/master/Examples) for working samples.
+See the [examples folder](https://github.com/factorenergia/jpgraph/tree/master/Examples) for working samples.
 
 The examples work the same way you should use this library:
 
@@ -48,8 +48,8 @@ The examples work the same way you should use this library:
 
 ```php
    require_once './vendor/autoload.php';
-   use Amenadiel\JpGraph\Graph;
-   use Amenadiel\JpGraph\Plot;
+   use factorenergia\JpGraph\Graph;
+   use factorenergia\JpGraph\Plot;
 
    // Create the Pie Graph.
    $graph = new Graph\PieGraph(350, 250);

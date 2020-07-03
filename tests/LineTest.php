@@ -5,7 +5,7 @@
  */
 class LineTest extends \Codeception\Test\Unit
 {
-    use Amenadiel\JpGraph\UnitTest\UnitTestTrait;
+    use factorenergia\JpGraph\UnitTest\UnitTestTrait;
 
     public static $fixTures    = [];
     public static $files       = null;

@@ -4,11 +4,11 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace factorenergia\JpGraph\Graph;
 
-use Amenadiel\JpGraph\Image;
-use Amenadiel\JpGraph\Text;
-use Amenadiel\JpGraph\Util;
+use factorenergia\JpGraph\Image;
+use factorenergia\JpGraph\Text;
+use factorenergia\JpGraph\Util;
 
 /**
  * File:        JPGRAPH_MGRAPH.PHP

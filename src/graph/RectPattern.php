@@ -4,9 +4,9 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Graph;
+namespace factorenergia\JpGraph\Graph;
 
-use Amenadiel\JpGraph\Util;
+use factorenergia\JpGraph\Util;
 
 /**
  * @class RectPattern

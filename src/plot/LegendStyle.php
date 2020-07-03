@@ -4,7 +4,7 @@
  * JPGraph v4.0.3
  */
 
-namespace Amenadiel\JpGraph\Plot;
+namespace factorenergia\JpGraph\Plot;
 
 /**
  * File:        JPGRAPH_WINDROSE.PHP
