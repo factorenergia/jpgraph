@@ -990,6 +990,9 @@ class Image
 
     public function _StrokeTTF($x, $y, $txt, $dir, $paragraph_align, &$aBoundingBox, $debug = false)
     {
+        if($txt == ''){
+            $txt = '  ';
+        }
         // Setup default inter line margin for paragraphs to be
         // 3% of the font height.
         $ConstLineSpacing = 0.03;
